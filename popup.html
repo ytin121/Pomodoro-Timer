@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro timer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Enter Time in Minutes:</h2>
+        <input type="number" id="userInput" placeholder="Type here...">
+        <button id="submitBtn">Submit</button>
+        <p id="result"></p>
+    </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Custom Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="timer-container">
+        <h1>Pomodoro Timer</h1>
+        <div class="controls">
+            <label for="timer-duration">Enter Timer Duration (minutes):</label>
+            <input type="number" id="timer-duration" min="1" value="25">
+
+            <button id="start-btn">Start Timer</button>
+            <button id="reset-btn">Reset Timer</button>
+        </div>
+        <div class="timer">
+            <span id="time-left">25:00</span>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Timer",
+    "version": "1.0.0",
+    "description": "Save your time and get things ready",
+    "action": {
+        "default_icon": {
+            "16": "images/clock-16.png",
+            "32": "images/clock-32.png",
+            "48": "images/clock-48.png",
+            "128": "images/clock-128.png"
+        }
+    },
+    "permissions": [
+        "storage",
+        "contextMenus",
+        "alarms",
+        "notifications"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "icons": {
+        "16": "images/clock-16.png",
+        "32": "images/clock-32.png",
+        "48": "images/clock-48.png",
+        "128": "images/clock-128.png"
+    }
+}
